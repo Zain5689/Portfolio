@@ -26,15 +26,8 @@
 }
 .img {
   transform: rotate(45deg);
-  width: 320px;
-  height: 320px;
-}
-
-@media (max-width: 767px) {
-  .img {
-    width: 200px;
-    height: 200px;
-  }
+  width: 200px;
+  height: 200px;
 }
 
 .example-projects {
@@ -81,8 +74,19 @@
 }
 
 .portfile img {
-  height: 380px;
+  height: 360px;
 }
 .portfile .im {
-  height: 190px;
+  height: 180px;
+}
+footer {
+  background-color: var(--bg-color);
+}
+footer a {
+  color: #d9d5d5;
+  font-weight: bold;
+}
+footer input:focus {
+  outline: 0;
+  color: var(--white-color);
 }
